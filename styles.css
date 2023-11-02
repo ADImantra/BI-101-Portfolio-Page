@@ -41,9 +41,6 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;  
-    
-
-    padding: 10vh 4vw;
 }
 
 .foot {
@@ -55,7 +52,6 @@ body {
 
 li {
     list-style: none;
-    border: 2px solid black;
     border-radius: 100px;
     margin: 20px;
 }
@@ -68,7 +64,7 @@ a {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     gap: 2vw;
 }
@@ -79,6 +75,7 @@ a {
     flex: 1;
     align-items: center;
     justify-content: center;
+    margin-left: 8vw;
 }
 
 .page h3 {
@@ -90,6 +87,11 @@ a {
 }
 
 iframe {
-    height: 80vh;
+    height: 100vh;
     width: 45vw;
+}
+
+img {
+    height: 80px;
+    border-radius: 100px;
 }
