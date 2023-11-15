@@ -93,5 +93,13 @@ iframe {
 
 img {
     height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    transition: width 1s, height 1s;
+}
+
+img:hover {
+    height: 100px;
+    width: 100px;
     border-radius: 100px;
 }
